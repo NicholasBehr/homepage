@@ -14,6 +14,6 @@ params:
 
   socialIcons:
     - name: "github"
-      url: "github.com/NicholasBehr"
+      url: "https://github.com/NicholasBehr"
     - name: "linkedin"
-      url: "www.linkedin.com/in/behr"
+      url: "https://www.linkedin.com/in/behr"
