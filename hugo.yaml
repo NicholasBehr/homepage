@@ -1,17 +1,19 @@
 baseURL: https://nicholasbehr.ch/
 languageCode: en-us
-title: Homepage
+title: Nicholas Behr
 theme: ["PaperMod"]
 
 params:
   defaultTheme: auto
 
+  enableRobotsTXT: true
+
   homeInfoParams:
     Title: Hi there 👋🏼
     Content: Welcome to my website 
 
-  socialIcons: # optional
+  socialIcons:
     - name: "github"
-      url: "https://github.com/NicholasBehr"
+      url: "github.com/NicholasBehr"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/behr/"
+      url: "www.linkedin.com/in/behr"
