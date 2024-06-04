@@ -1,4 +1,17 @@
 baseURL: https://nicholasbehr.ch/
 languageCode: en-us
-title: My New Hugo Site
+title: Homepage
 theme: ["PaperMod"]
+
+params:
+  defaultTheme: auto
+
+  homeInfoParams:
+    Title: Hi there 👋🏼
+    Content: Welcome to my website 
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/NicholasBehr"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/behr/"
