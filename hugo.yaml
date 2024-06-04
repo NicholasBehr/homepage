@@ -3,11 +3,23 @@ languageCode: en-us
 title: Nicholas Behr
 theme: ["PaperMod"]
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Nicholas Behr
+  description: "personal homepage and project showcase"
+  keywords: [Blog, Coding]
   defaultTheme: auto
 
-  enableRobotsTXT: true
-
+  # home-info mode
   homeInfoParams:
     Title: Hi there 👋🏼
     Content: Welcome to my website 
