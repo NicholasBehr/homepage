@@ -31,8 +31,11 @@ params:
     Title: "Hi there 👋🏼"
     Content: >
       Welcome to my homepage!
+
       - Hi, I'm Nicholas, an electrical engineering student at ETH Zurich 🇨🇭.
+
       - Passionate about optimization and control theory, and embedded programming.
+
       - This page showcases my side projects, with more to come in the future 💡.
 
   socialIcons:
