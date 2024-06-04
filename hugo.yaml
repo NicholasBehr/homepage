@@ -3,10 +3,13 @@ languageCode: en-us
 title: Nicholas Behr
 theme: ["PaperMod"]
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
 
 minify:
   disableXML: true
@@ -17,12 +20,20 @@ params:
   title: Nicholas Behr
   description: "personal homepage and project showcase"
   keywords: [Blog, Coding]
+
   defaultTheme: auto
+  ShowReadingTime: true
+  ShowWordCount: true
 
   # home-info mode
   homeInfoParams:
-    Title: Hi there 👋🏼
-    Content: Welcome to my website 
+    # https://emojipedia.org/
+    Title: "Hi there 👋🏼"
+    Content: >
+      Welcome to my homepage!
+      - Hi, I'm Nicholas, an electrical engineering student at ETH Zurich 🇨🇭.
+      - Passionate about optimization and control theory, and embedded programming.
+      - This page showcases my side projects, with more to come in the future 💡.
 
   socialIcons:
     - name: "github"
