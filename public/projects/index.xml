@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:54398/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://localhost:54398/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 14:24:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:54398/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54398/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>http://localhost:54398/projects/test/</link>
       <pubDate>Tue, 04 Jun 2024 14:24:44 +0200</pubDate>
       <guid>http://localhost:54398/projects/test/</guid>
-      <description>Headline content</description>
+      <description>Test This is a test!</description>
     </item>
   </channel>
 </rss>
