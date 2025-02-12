@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": [
+    "hugo@latest",
+    "brotli@latest",
+    "gzip@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "server": [
+        "hugo server"
+      ],
+      "build": [
+        "hugo build --minify --panicOnWarning",
+        "find ./public -type f \\( -name '*.html' -o -name '*.js' -o -name '*.css' \\) -exec gzip -v -k -f -n --best {} \\;",
+        "find ./public -type f \\( -name '*.html' -o -name '*.js' -o -name '*.css' \\) -exec brotli -v -k -f -n --best {} \\;"
+      ]
+    }
+  }
+}

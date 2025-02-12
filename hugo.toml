@@ -1,0 +1,75 @@
+baseURL = 'https://nicholasbehr.ch/'
+languageCode = 'en-us'
+title = 'Nicholas Behr'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A tech-oriented personal blog curated by Nicholas Behr."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'eink'
+breadcrumbs = true
+hideHeader = true
+showFooter = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi! 👋🏼'
+homeIntroContent = """
+I’m an electrical engineering master’s student at ETH Zurich, focusing on control theory and optimization. 
+I’m fascinated by large, complex, interconnected systems like the Internet or power grids and how to optimize their operation. 
+Outside of my studies, I enjoy working on personal coding projects. 
+When I’m not at the computer, you’ll often find me hiking or paragliding to recharge and get a fresh perspective.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/NicholasBehr"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/behr/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Umami
+[params.umami]
+enable = true
+websiteId = __UMAMI_ID__
+jsLocation = "https://cloud.umami.is/script.js"
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

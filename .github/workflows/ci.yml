@@ -1,0 +1,33 @@
+name: Continuous Integration
+on: 
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Checkout the current branch
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Inject umami website id
+        run: sed -i 's/__UMAMI_ID__/${{ secrets.UMAMI_ID }}/g' hugo.toml
+      
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
+
+      - name: Build website
+        run: devbox run build
+
+      - name: Deploy the website
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avx --delete
+          path: public/
+          remote_path: ./
+          remote_host: ${{ secrets.DEPLOY_SERVER }}
+          remote_port: ${{ secrets.DEPLOY_PORT }}
+          remote_user: ${{ secrets.DEPLOY_USERNAME }}
+          remote_key:  ${{ secrets.DEPLOY_KEY }}
