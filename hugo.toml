@@ -61,7 +61,7 @@ style = 'algol'
 # Umami
 [params.umami]
 enable = true
-websiteId = __UMAMI_ID__
+websiteId = "__UMAMI_ID__"
 jsLocation = "https://cloud.umami.is/script.js"
 
 # Giscus comments
