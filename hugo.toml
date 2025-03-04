@@ -15,7 +15,8 @@ theme = 'auto'
 colorPalette = 'eink'
 breadcrumbs = true
 hideHeader = true
-showFooter = false
+showFooter = true
+footerContent = "All content licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license unless otherwise stated. Copyright © 2025 Nicholas Behr."
 
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi! 👋🏼'
