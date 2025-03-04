@@ -17,6 +17,6 @@ hideBackToTop: true
 
 This is **bold** text, and this is *emphasized* text.
 
-Visit the [Hugo](https://gohugo.io) website! test
+Visit the [Hugo](https://gohugo.io) website!
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
