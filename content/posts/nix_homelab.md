@@ -1,14 +1,14 @@
 ---
-title: "Log-Structured Merge Tree"
-date: "2023-11-12"
-summary: "An LSM Tree overview and Java implementation."
-description: "An LSM Tree overview and Java implementation."
-toc: true
-readTime: true
+title: "NixOS Homelab"
+date: "2025-03-04"
+summary: "Beginner guide to a declarative homelab."
+description: "Beginner guide to a declarative homelab."
+toc: false
+readTime: false
 autonumber: true
 math: true
 tags: ["homelab", "nixos"]
-showTags: true
+showTags: false
 hideBackToTop: true
 ---
 
@@ -20,4 +20,3 @@ This is **bold** text, and this is *emphasized* text.
 Visit the [Hugo](https://gohugo.io) website! test
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
-
