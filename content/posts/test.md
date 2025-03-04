@@ -7,10 +7,9 @@ toc: true
 readTime: true
 autonumber: true
 math: true
-tags: ["database", "java"]
-showTags: false
-hideBackToTop: false
-fediverse: "@username@instance.url"
+tags: ["homelab", "nixos"]
+showTags: true
+hideBackToTop: true
 ---
 
 
@@ -18,6 +17,7 @@ fediverse: "@username@instance.url"
 
 This is **bold** text, and this is *emphasized* text.
 
-Visit the [Hugo](https://gohugo.io) website!
+Visit the [Hugo](https://gohugo.io) website! test
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+

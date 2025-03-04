@@ -21,7 +21,7 @@ showFooter = false
 homeIntroTitle = 'Hi! 👋🏼'
 homeIntroContent = """
 I’m an electrical engineering master’s student at ETH Zurich, focusing on control theory and optimization. 
-I’m fascinated by large, complex, interconnected systems like the Internet or power grids and how to optimize their operation. 
+I’m fascinated by large, complex, interconnected systems like the internet or power grids and how to optimize their operation. 
 Outside of my studies, I enjoy working on personal coding projects. 
 When I’m not at the computer, you’ll often find me hiking or paragliding to recharge and get a fresh perspective.
 """
@@ -66,10 +66,13 @@ jsLocation = "https://cloud.umami.is/script.js"
 
 # Giscus comments
 [params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
+enable = true
+repo = "NicholasBehr/homepage"
+repoid = "__GISCUS_REPO_ID__"
 category = "General"
-categoryid = "categoryId"
+categoryid = "__GISCUS_CATEGORY_ID__"
 mapping = "pathname"
 theme = "preferred_color_scheme"
+data-lang="en"
+data-loading="lazy"
+crossorigin="anonymous"
