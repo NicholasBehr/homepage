@@ -1,4 +1,4 @@
-name: CI
+name: Deploy
 on: 
   push:
 
@@ -12,14 +12,12 @@ jobs:
         with:
           submodules: 'true'
 
-      - name: Inject umami website id
+      - name: Inject secrets into hugo.toml
         run: |
           sed -i 's/__UMAMI_ID__/${{ secrets.UMAMI_ID }}/g' hugo.toml
           sed -i 's/__GISCUS_REPO_ID__/${{ secrets.GISCUS_REPO_ID }}/g' hugo.toml
           sed -i 's/__GISCUS_CATEGORY_ID__/${{ secrets.GISCUS_CATEGORY_ID }}/g' hugo.toml
 
-
-      
       - name: Install devbox
         uses: jetify-com/devbox-install-action@v0.11.0
 
